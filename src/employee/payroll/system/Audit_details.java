@@ -14,17 +14,12 @@ import java.util.GregorianCalendar;
 import javax.swing.*;
 import net.proteanit.sql.DbUtils;
 
-/**
- *
- * @author Hyrex
- */
+
 public class Audit_details extends javax.swing.JFrame {
 Connection conn=null;
 ResultSet rs=null;
 PreparedStatement pst=null;
-    /**
-     * Creates new form Audit_details
-     */
+  
     public Audit_details() {
         initComponents();
         conn=db.java_db();
